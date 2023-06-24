@@ -20,6 +20,8 @@
 		38F539CF2A47787100D781E4 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F539CE2A47787100D781E4 /* HeroHeaderUIView.swift */; };
 		38F539D12A4792DC00D781E4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F539D02A4792DC00D781E4 /* APICaller.swift */; };
 		38F539D32A47A4BA00D781E4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F539D22A47A4BA00D781E4 /* Movie.swift */; };
+		38F539D52A47AC8D00D781E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F539D42A47AC8D00D781E4 /* Extensions.swift */; };
+		38F539D72A47B4B200D781E4 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F539D62A47B4B200D781E4 /* Tv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		38F539CE2A47787100D781E4 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		38F539D02A4792DC00D781E4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		38F539D22A47A4BA00D781E4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		38F539D42A47AC8D00D781E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		38F539D62A47B4B200D781E4 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				38F539D22A47A4BA00D781E4 /* Movie.swift */,
+				38F539D62A47B4B200D781E4 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		38F539CA2A4751FF00D781E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				38F539D42A47AC8D00D781E4 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,9 +219,11 @@
 				38F539CF2A47787100D781E4 /* HeroHeaderUIView.swift in Sources */,
 				3835CE372A462756004B70B2 /* AppDelegate.swift in Sources */,
 				387650D62A463C7A006D84BB /* DownloadsViewController.swift in Sources */,
+				38F539D52A47AC8D00D781E4 /* Extensions.swift in Sources */,
 				3835CE392A462756004B70B2 /* SceneDelegate.swift in Sources */,
 				387650D42A463C2B006D84BB /* UpcomingViewController.swift in Sources */,
 				38F539D32A47A4BA00D781E4 /* Movie.swift in Sources */,
+				38F539D72A47B4B200D781E4 /* Tv.swift in Sources */,
 				387650D22A463B41006D84BB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
